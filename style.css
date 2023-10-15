@@ -37,6 +37,7 @@ header {
 }
 
 .mainText a { /* Joandora */
+    display: inline-block; /* 가로 영역 맘대로 확장되는 부분 제거 */
     color:navajowhite;
     font-size: 20px;
     text-shadow: 1px 1px 7px gray;
@@ -44,6 +45,8 @@ header {
 }
 
 .mainText p { /* 가장 제주다운 수산리집*/
+    display: table-row; /* 가로 영역 맘대로 확장되는 부분 제거 */
+    cursor: default;
     color: rgb(255, 255, 173);
     font-size: 23px;
     font-weight: bold;
@@ -84,6 +87,7 @@ section {
     width: 680px;
     height: auto;
     padding-left: 10px;
+    margin-bottom: 15px; /* section과 footer 사이의 간격 */
 }
 
 section p, aside p {
